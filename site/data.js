@@ -1,7 +1,7 @@
 window.ADMISSION_DATA = {
   "schemaVersion": 1,
   "year": 2027,
-  "lastAttemptAt": "2026-09-10T12:54:52+09:00",
+  "lastAttemptAt": "2026-09-10T17:26:05+09:00",
   "programs": [
     {
       "id": "konkuk-statistics",
@@ -506,29 +506,113 @@ window.ADMISSION_DATA = {
       "final": true,
       "sourceUrl": "https://ratio.uwayapply.com/Sl5KOnw5SmYlJjomSnpmVGY=",
       "method": "공식 최종 경쟁률 열람 확인"
+    },
+    {
+      "programId": "uos-urban-sociology",
+      "year": 2027,
+      "seats": 12,
+      "applicants": 199,
+      "ratio": 16.58,
+      "publishedAt": "2026-09-10T16:00:00+09:00",
+      "final": false,
+      "sourceUrl": "https://ratio.uwayapply.com/Sl5KJmE6SmYlJjomSjdmVGY=",
+      "sourceTrack": "학생부종합전형I(면접형)",
+      "deadline": "2026-09-10T18:00:00+09:00",
+      "sourceHash": "490b95d847e1bc78cdeee2163df071d9a410ac987cdecff7100faf39df2dee49",
+      "collectedAt": "2026-09-10T17:26:05+09:00"
+    },
+    {
+      "programId": "hufs-german-education",
+      "year": 2027,
+      "seats": 7,
+      "applicants": 26,
+      "ratio": 3.71,
+      "publishedAt": "2026-09-10T17:00:00+09:00",
+      "final": false,
+      "sourceUrl": "https://ratio.uwayapply.com/Sl5KJmg6fEpmJSY6Jko3ZlRm",
+      "sourceTrack": "학생부종합전형(면접형)",
+      "deadline": "2026-09-11T17:00:00+09:00",
+      "sourceHash": "24de87f5226a146eb99f3cd9233164818baf5723fa512e5fd02f395112035777",
+      "collectedAt": "2026-09-10T17:26:05+09:00"
+    },
+    {
+      "programId": "hufs-politics-interview",
+      "year": 2027,
+      "seats": 8,
+      "applicants": 69,
+      "ratio": 8.63,
+      "publishedAt": "2026-09-10T17:00:00+09:00",
+      "final": false,
+      "sourceUrl": "https://ratio.uwayapply.com/Sl5KJmg6fEpmJSY6Jko3ZlRm",
+      "sourceTrack": "학생부종합전형(면접형)",
+      "deadline": "2026-09-11T17:00:00+09:00",
+      "sourceHash": "24de87f5226a146eb99f3cd9233164818baf5723fa512e5fd02f395112035777",
+      "collectedAt": "2026-09-10T17:26:05+09:00"
+    },
+    {
+      "programId": "hufs-politics-document",
+      "year": 2027,
+      "seats": 7,
+      "applicants": 43,
+      "ratio": 6.14,
+      "publishedAt": "2026-09-10T17:00:00+09:00",
+      "final": false,
+      "sourceUrl": "https://ratio.uwayapply.com/Sl5KJmg6fEpmJSY6Jko3ZlRm",
+      "sourceTrack": "학생부종합전형(서류형)",
+      "deadline": "2026-09-11T17:00:00+09:00",
+      "sourceHash": "24de87f5226a146eb99f3cd9233164818baf5723fa512e5fd02f395112035777",
+      "collectedAt": "2026-09-10T17:26:05+09:00"
+    },
+    {
+      "programId": "hufs-language-ai",
+      "year": 2027,
+      "seats": 8,
+      "applicants": 50,
+      "ratio": 6.25,
+      "publishedAt": "2026-09-10T17:00:00+09:00",
+      "final": false,
+      "sourceUrl": "https://ratio.uwayapply.com/Sl5KJmg6fEpmJSY6Jko3ZlRm",
+      "sourceTrack": "학생부종합전형(면접형)",
+      "deadline": "2026-09-11T17:00:00+09:00",
+      "sourceHash": "24de87f5226a146eb99f3cd9233164818baf5723fa512e5fd02f395112035777",
+      "collectedAt": "2026-09-10T17:26:05+09:00"
+    },
+    {
+      "programId": "khu-international",
+      "year": 2027,
+      "seats": 55,
+      "applicants": 357,
+      "ratio": 6.49,
+      "publishedAt": "2026-09-10T17:00:00+09:00",
+      "final": false,
+      "sourceUrl": "https://ratio.uwayapply.com/Sl5KOnw5SmYlJjomSjdmVGY=",
+      "sourceTrack": "국제캠퍼스학생부종합(네오르네상스전형)",
+      "deadline": "2026-09-11T18:00:00+09:00",
+      "sourceHash": "932f564e7c021c03cb9e27760372289f213feb3159ad42cb877cf8c481aac946",
+      "collectedAt": "2026-09-10T17:26:05+09:00"
     }
   ],
   "status": {
     "ewha": {
-      "checkedAt": "2026-09-10T12:54:52+09:00",
+      "checkedAt": "2026-09-10T17:26:05+09:00",
       "error": "HTTPError: HTTP Error 403: Forbidden"
     },
     "konkuk": {
-      "checkedAt": "2026-09-10T12:54:52+09:00",
+      "checkedAt": "2026-09-10T17:26:05+09:00",
       "error": "HTTPError: HTTP Error 403: Forbidden"
     },
     "hufs": {
-      "checkedAt": "2026-09-10T12:54:52+09:00",
+      "checkedAt": "2026-09-10T17:26:05+09:00",
       "error": null,
       "matched": 4
     },
     "uos": {
-      "checkedAt": "2026-09-10T12:54:52+09:00",
+      "checkedAt": "2026-09-10T17:26:05+09:00",
       "error": null,
       "matched": 1
     },
     "khu": {
-      "checkedAt": "2026-09-10T12:54:52+09:00",
+      "checkedAt": "2026-09-10T17:26:05+09:00",
       "error": null,
       "matched": 1
     }
