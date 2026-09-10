@@ -1,0 +1,365 @@
+{
+  "collectFrom": "2026-09-07T00:00:00+09:00",
+  "collectUntil": "2026-09-14T23:59:59+09:00",
+  "sources": [
+    {
+      "id": "konkuk",
+      "year": 2027,
+      "url": "https://addon.jinhakapply.com/RatioV1/RatioH/Ratio10080381.html",
+      "universityCheck": "건국대학교"
+    },
+    {
+      "id": "hufs",
+      "year": 2027,
+      "url": "https://ratio.uwayapply.com/Sl5KJmg6fEpmJSY6Jko3ZlRm",
+      "universityCheck": "한국외국어대학교"
+    },
+    {
+      "id": "ewha",
+      "year": 2027,
+      "url": "https://addon.jinhakapply.com/RatioV1/RatioH/Ratio11202121.html",
+      "universityCheck": "이화여자대학교"
+    },
+    {
+      "id": "khu",
+      "year": 2027,
+      "url": "https://ratio.uwayapply.com/Sl5KOnw5SmYlJjomSjdmVGY=",
+      "universityCheck": "경희대학교"
+    },
+    {
+      "id": "uos",
+      "year": 2027,
+      "url": "https://ratio.uwayapply.com/Sl5KJmE6SmYlJjomSjdmVGY=",
+      "universityCheck": "서울시립대학교"
+    },
+    {
+      "id": "konkuk-2026",
+      "year": 2026,
+      "url": "https://addon.jinhakapply.com/RatioV1/RatioH/Ratio10080311.html",
+      "universityCheck": "건국대학교",
+      "finalVerified": true,
+      "programs": [
+        {
+          "id": "konkuk-statistics",
+          "university": "건국대학교",
+          "department": "응용통계학과",
+          "track": "KU자기추천(면접)",
+          "sourceId": "konkuk",
+          "sourceUrl": "https://addon.jinhakapply.com/RatioV1/RatioH/Ratio10080381.html",
+          "admissionUrl": "https://enter.konkuk.ac.kr/",
+          "deadline": "2026-09-11T17:00:00+09:00",
+          "sourceTracks": [
+            "학생부종합(KU자기추천)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "konkuk-2025",
+      "year": 2025,
+      "url": "https://addon.jinhakapply.com/RatioV1/RatioH/Ratio10080231.html",
+      "universityCheck": "건국대학교",
+      "finalVerified": true,
+      "programs": [
+        {
+          "id": "konkuk-statistics",
+          "university": "건국대학교",
+          "department": "응용통계학과",
+          "track": "KU자기추천(면접)",
+          "sourceId": "konkuk",
+          "sourceUrl": "https://addon.jinhakapply.com/RatioV1/RatioH/Ratio10080381.html",
+          "admissionUrl": "https://enter.konkuk.ac.kr/",
+          "deadline": "2026-09-11T17:00:00+09:00",
+          "sourceTracks": [
+            "학생부종합(KU자기추천)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "konkuk-2024",
+      "year": 2024,
+      "url": "https://addon.jinhakapply.com/RatioV1/RatioH/Ratio10080151.html",
+      "universityCheck": "건국대학교",
+      "finalVerified": true,
+      "programs": [
+        {
+          "id": "konkuk-statistics",
+          "university": "건국대학교",
+          "department": "응용통계학과",
+          "track": "KU자기추천(면접)",
+          "sourceId": "konkuk",
+          "sourceUrl": "https://addon.jinhakapply.com/RatioV1/RatioH/Ratio10080381.html",
+          "admissionUrl": "https://enter.konkuk.ac.kr/",
+          "deadline": "2026-09-11T17:00:00+09:00",
+          "sourceTracks": [
+            "학생부종합(KU자기추천)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ewha-2026",
+      "year": 2026,
+      "url": "https://addon.jinhakapply.com/RatioV1/RatioH/Ratio11201541.html",
+      "universityCheck": "이화여자대학교",
+      "finalVerified": true,
+      "programs": [
+        {
+          "id": "ewha-office-interview",
+          "university": "이화여자대학교",
+          "department": "국제사무학과",
+          "track": "미래인재(면접형)",
+          "sourceId": "ewha",
+          "sourceUrl": "https://addon.jinhakapply.com/RatioV1/RatioH/Ratio11202121.html",
+          "admissionUrl": "https://admission.ewha.ac.kr/",
+          "deadline": "2026-09-10T17:00:00+09:00",
+          "sourceTracks": [
+            "학생부종합(미래인재전형-면접형)"
+          ],
+          "historyNotes": {
+            "2024": "당시 미래인재전형 통합 모집 · 올해 면접/서류형과 직접 비교 불가",
+            "2025": "당시 미래인재전형 통합 모집 · 올해 면접/서류형과 직접 비교 불가"
+          }
+        },
+        {
+          "id": "ewha-office-document",
+          "university": "이화여자대학교",
+          "department": "국제사무학과",
+          "track": "미래인재(서류형)",
+          "sourceId": "ewha",
+          "sourceUrl": "https://addon.jinhakapply.com/RatioV1/RatioH/Ratio11202121.html",
+          "admissionUrl": "https://admission.ewha.ac.kr/",
+          "deadline": "2026-09-10T17:00:00+09:00",
+          "sourceTracks": [
+            "학생부종합(미래인재전형-서류형)"
+          ],
+          "historyNotes": {
+            "2024": "당시 미래인재전형 통합 모집 · 올해 면접/서류형과 직접 비교 불가",
+            "2025": "당시 미래인재전형 통합 모집 · 올해 면접/서류형과 직접 비교 불가"
+          }
+        },
+        {
+          "id": "ewha-international",
+          "university": "이화여자대학교",
+          "department": "국제학부",
+          "track": "미래인재(면접형)",
+          "sourceId": "ewha",
+          "sourceUrl": "https://addon.jinhakapply.com/RatioV1/RatioH/Ratio11202121.html",
+          "admissionUrl": "https://admission.ewha.ac.kr/",
+          "deadline": "2026-09-10T17:00:00+09:00",
+          "sourceTracks": [
+            "학생부종합(미래인재전형-면접형)"
+          ],
+          "historyNotes": {
+            "2024": "당시 미래인재전형 통합 모집 · 올해 면접/서류형과 직접 비교 불가",
+            "2025": "당시 미래인재전형 통합 모집 · 올해 면접/서류형과 직접 비교 불가"
+          }
+        },
+        {
+          "id": "ewha-german",
+          "university": "이화여자대학교",
+          "department": "독어독문학과",
+          "track": "미래인재(서류형)",
+          "sourceId": "ewha",
+          "sourceUrl": "https://addon.jinhakapply.com/RatioV1/RatioH/Ratio11202121.html",
+          "admissionUrl": "https://admission.ewha.ac.kr/",
+          "deadline": "2026-09-10T17:00:00+09:00",
+          "sourceTracks": [
+            "학생부종합(미래인재전형-서류형)"
+          ],
+          "historyNotes": {
+            "2024": "당시 미래인재전형 통합 모집 · 올해 면접/서류형과 직접 비교 불가",
+            "2025": "당시 미래인재전형 통합 모집 · 올해 면접/서류형과 직접 비교 불가"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ewha-2025",
+      "year": 2025,
+      "url": "https://addon.jinhakapply.com/RatioV1/RatioH/Ratio11201011.html",
+      "universityCheck": "이화여자대학교",
+      "finalVerified": true,
+      "programs": [
+        {
+          "id": "ewha-office-interview",
+          "university": "이화여자대학교",
+          "department": "국제사무학과",
+          "track": "미래인재(면접형)",
+          "sourceId": "ewha",
+          "sourceUrl": "https://addon.jinhakapply.com/RatioV1/RatioH/Ratio11202121.html",
+          "admissionUrl": "https://admission.ewha.ac.kr/",
+          "deadline": "2026-09-10T17:00:00+09:00",
+          "sourceTracks": [
+            "학생부종합(미래인재전형)"
+          ],
+          "historyNotes": {
+            "2024": "당시 미래인재전형 통합 모집 · 올해 면접/서류형과 직접 비교 불가",
+            "2025": "당시 미래인재전형 통합 모집 · 올해 면접/서류형과 직접 비교 불가"
+          }
+        },
+        {
+          "id": "ewha-office-document",
+          "university": "이화여자대학교",
+          "department": "국제사무학과",
+          "track": "미래인재(서류형)",
+          "sourceId": "ewha",
+          "sourceUrl": "https://addon.jinhakapply.com/RatioV1/RatioH/Ratio11202121.html",
+          "admissionUrl": "https://admission.ewha.ac.kr/",
+          "deadline": "2026-09-10T17:00:00+09:00",
+          "sourceTracks": [
+            "학생부종합(미래인재전형)"
+          ],
+          "historyNotes": {
+            "2024": "당시 미래인재전형 통합 모집 · 올해 면접/서류형과 직접 비교 불가",
+            "2025": "당시 미래인재전형 통합 모집 · 올해 면접/서류형과 직접 비교 불가"
+          }
+        },
+        {
+          "id": "ewha-german",
+          "university": "이화여자대학교",
+          "department": "독어독문학과",
+          "track": "미래인재(서류형)",
+          "sourceId": "ewha",
+          "sourceUrl": "https://addon.jinhakapply.com/RatioV1/RatioH/Ratio11202121.html",
+          "admissionUrl": "https://admission.ewha.ac.kr/",
+          "deadline": "2026-09-10T17:00:00+09:00",
+          "sourceTracks": [
+            "학생부종합(미래인재전형)"
+          ],
+          "historyNotes": {
+            "2024": "당시 미래인재전형 통합 모집 · 올해 면접/서류형과 직접 비교 불가",
+            "2025": "당시 미래인재전형 통합 모집 · 올해 면접/서류형과 직접 비교 불가"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ewha-2024",
+      "year": 2024,
+      "url": "https://addon.jinhakapply.com/RatioV1/RatioH/Ratio11200491.html",
+      "universityCheck": "이화여자대학교",
+      "finalVerified": true,
+      "programs": [
+        {
+          "id": "ewha-office-interview",
+          "university": "이화여자대학교",
+          "department": "국제사무학과",
+          "track": "미래인재(면접형)",
+          "sourceId": "ewha",
+          "sourceUrl": "https://addon.jinhakapply.com/RatioV1/RatioH/Ratio11202121.html",
+          "admissionUrl": "https://admission.ewha.ac.kr/",
+          "deadline": "2026-09-10T17:00:00+09:00",
+          "sourceTracks": [
+            "학생부종합(미래인재전형)"
+          ],
+          "historyNotes": {
+            "2024": "당시 미래인재전형 통합 모집 · 올해 면접/서류형과 직접 비교 불가",
+            "2025": "당시 미래인재전형 통합 모집 · 올해 면접/서류형과 직접 비교 불가"
+          }
+        },
+        {
+          "id": "ewha-office-document",
+          "university": "이화여자대학교",
+          "department": "국제사무학과",
+          "track": "미래인재(서류형)",
+          "sourceId": "ewha",
+          "sourceUrl": "https://addon.jinhakapply.com/RatioV1/RatioH/Ratio11202121.html",
+          "admissionUrl": "https://admission.ewha.ac.kr/",
+          "deadline": "2026-09-10T17:00:00+09:00",
+          "sourceTracks": [
+            "학생부종합(미래인재전형)"
+          ],
+          "historyNotes": {
+            "2024": "당시 미래인재전형 통합 모집 · 올해 면접/서류형과 직접 비교 불가",
+            "2025": "당시 미래인재전형 통합 모집 · 올해 면접/서류형과 직접 비교 불가"
+          }
+        },
+        {
+          "id": "ewha-german",
+          "university": "이화여자대학교",
+          "department": "독어독문학과",
+          "track": "미래인재(서류형)",
+          "sourceId": "ewha",
+          "sourceUrl": "https://addon.jinhakapply.com/RatioV1/RatioH/Ratio11202121.html",
+          "admissionUrl": "https://admission.ewha.ac.kr/",
+          "deadline": "2026-09-10T17:00:00+09:00",
+          "sourceTracks": [
+            "학생부종합(미래인재전형)"
+          ],
+          "historyNotes": {
+            "2024": "당시 미래인재전형 통합 모집 · 올해 면접/서류형과 직접 비교 불가",
+            "2025": "당시 미래인재전형 통합 모집 · 올해 면접/서류형과 직접 비교 불가"
+          }
+        }
+      ]
+    },
+    {
+      "id": "khu-2026",
+      "year": 2026,
+      "url": "https://ratio.uwayapply.com/SmZKOnw5SmYlJjomSi1mVGY=",
+      "universityCheck": "경희대학교",
+      "finalVerified": true,
+      "programs": [
+        {
+          "id": "khu-international",
+          "university": "경희대학교 국제캠퍼스",
+          "department": "국제학과",
+          "track": "네오르네상스(면접)",
+          "sourceId": "khu",
+          "sourceUrl": "https://ratio.uwayapply.com/Sl5KOnw5SmYlJjomSjdmVGY=",
+          "admissionUrl": "https://iphak.khu.ac.kr/",
+          "deadline": "2026-09-11T18:00:00+09:00",
+          "sourceTracks": [
+            "국제캠퍼스 학생부종합(네오르네상스전형)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "khu-2025",
+      "year": 2025,
+      "url": "https://ratio.uwayapply.com/Sl5KOnw5SmYlJjomSiNmVGY=",
+      "universityCheck": "경희대학교",
+      "finalVerified": true,
+      "programs": [
+        {
+          "id": "khu-international",
+          "university": "경희대학교 국제캠퍼스",
+          "department": "국제학과",
+          "track": "네오르네상스(면접)",
+          "sourceId": "khu",
+          "sourceUrl": "https://ratio.uwayapply.com/Sl5KOnw5SmYlJjomSjdmVGY=",
+          "admissionUrl": "https://iphak.khu.ac.kr/",
+          "deadline": "2026-09-11T18:00:00+09:00",
+          "sourceTracks": [
+            "국제캠퍼스 학생부종합(네오르네상스전형)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "khu-2024",
+      "year": 2024,
+      "url": "https://ratio.uwayapply.com/Sl5KOnw5SmYlJjomSnpmVGY=",
+      "universityCheck": "경희대학교",
+      "finalVerified": true,
+      "programs": [
+        {
+          "id": "khu-international",
+          "university": "경희대학교 국제캠퍼스",
+          "department": "국제학과",
+          "track": "네오르네상스(면접)",
+          "sourceId": "khu",
+          "sourceUrl": "https://ratio.uwayapply.com/Sl5KOnw5SmYlJjomSjdmVGY=",
+          "admissionUrl": "https://iphak.khu.ac.kr/",
+          "deadline": "2026-09-11T18:00:00+09:00",
+          "sourceTracks": [
+            "국제캠퍼스 학생부종합(네오르네상스전형)"
+          ]
+        }
+      ]
+    }
+  ]
+}

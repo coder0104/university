@@ -1,0 +1,97 @@
+name: Update competition and deploy Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      include_history:
+        description: '과거 최종 자료도 다시 확인 (수집 종료일 이후 수동 갱신 포함)'
+        type: boolean
+        default: false
+  schedule:
+    # UTC, at :07/:22/:37/:52. Avoid the busy top of each hour.
+    - cron: '7,22,37,52 * 7-14 9 *'
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: admission-pages
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    outputs:
+      deploy: ${{ steps.gate.outputs.deploy }}
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check collection window
+        id: gate
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+        run: |
+          python - <<'PY'
+          import datetime, json, os
+          config = json.load(open('sources.json', encoding='utf-8'))
+          now = datetime.datetime.now(datetime.timezone.utc)
+          start = datetime.datetime.fromisoformat(config['collectFrom'])
+          end = datetime.datetime.fromisoformat(config['collectUntil'])
+          allowed = os.environ['EVENT_NAME'] != 'schedule' or start <= now <= end
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as out:
+              out.write('deploy=' + str(allowed).lower() + '\n')
+          PY
+      - name: Verify parser and stored data
+        if: steps.gate.outputs.deploy == 'true'
+        run: python -m unittest discover -s tests -p 'test_*.py'
+      - name: Collect published competition data
+        if: steps.gate.outputs.deploy == 'true'
+        env:
+          INCLUDE_HISTORY: ${{ inputs.include_history }}
+        run: |
+          if [ "$INCLUDE_HISTORY" = "true" ]; then
+            python scripts/collect.py --history
+          else
+            python scripts/collect.py
+          fi
+      - name: Commit observations and keep remote changes
+        if: steps.gate.outputs.deploy == 'true'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add site/data.json site/data.js
+          if ! git diff --cached --quiet; then
+            git commit -m 'data: save published admission observations'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - name: Configure Pages
+        if: steps.gate.outputs.deploy == 'true'
+        uses: actions/configure-pages@v5
+      - name: Upload website
+        if: steps.gate.outputs.deploy == 'true'
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
+
+  deploy:
+    if: needs.update.outputs.deploy == 'true'
+    needs: update
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy website
+        id: deployment
+        uses: actions/deploy-pages@v4
