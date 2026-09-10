@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "year": 2027,
-  "lastAttemptAt": null,
+  "lastAttemptAt": "2026-09-10T12:49:17+09:00",
   "programs": [
     {
       "id": "konkuk-statistics",
@@ -508,5 +508,29 @@
       "method": "공식 최종 경쟁률 열람 확인"
     }
   ],
-  "status": {}
+  "status": {
+    "ewha": {
+      "checkedAt": "2026-09-10T12:49:17+09:00",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    "konkuk": {
+      "checkedAt": "2026-09-10T12:49:17+09:00",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    "hufs": {
+      "checkedAt": "2026-09-10T12:49:17+09:00",
+      "error": null,
+      "matched": 4
+    },
+    "uos": {
+      "checkedAt": "2026-09-10T12:49:17+09:00",
+      "error": null,
+      "matched": 1
+    },
+    "khu": {
+      "checkedAt": "2026-09-10T12:49:17+09:00",
+      "error": null,
+      "matched": 1
+    }
+  }
 }
