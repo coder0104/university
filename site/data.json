@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "year": 2027,
-  "lastAttemptAt": "2026-09-10T17:26:05+09:00",
+  "lastAttemptAt": "2026-09-10T22:05:23+09:00",
   "programs": [
     {
       "id": "konkuk-statistics",
@@ -590,29 +590,43 @@
       "deadline": "2026-09-11T18:00:00+09:00",
       "sourceHash": "932f564e7c021c03cb9e27760372289f213feb3159ad42cb877cf8c481aac946",
       "collectedAt": "2026-09-10T17:26:05+09:00"
+    },
+    {
+      "programId": "uos-urban-sociology",
+      "year": 2027,
+      "seats": 12,
+      "applicants": 226,
+      "ratio": 18.83,
+      "publishedAt": null,
+      "final": true,
+      "sourceUrl": "https://ratio.uwayapply.com/Sl5KJmE6SmYlJjomSjdmVGY=",
+      "sourceTrack": "학생부종합전형I(면접형)",
+      "deadline": "2026-09-10T18:00:00+09:00",
+      "sourceHash": "86ce29f51c892ec0ab322f98b8c56d9b03d4a25c554f27e19abd9fd30cc0c037",
+      "collectedAt": "2026-09-10T22:05:23+09:00"
     }
   ],
   "status": {
     "ewha": {
-      "checkedAt": "2026-09-10T17:26:05+09:00",
+      "checkedAt": "2026-09-10T22:05:23+09:00",
       "error": "HTTPError: HTTP Error 403: Forbidden"
     },
     "konkuk": {
-      "checkedAt": "2026-09-10T17:26:05+09:00",
+      "checkedAt": "2026-09-10T22:05:23+09:00",
       "error": "HTTPError: HTTP Error 403: Forbidden"
     },
     "hufs": {
-      "checkedAt": "2026-09-10T17:26:05+09:00",
+      "checkedAt": "2026-09-10T22:05:23+09:00",
       "error": null,
       "matched": 4
     },
     "uos": {
-      "checkedAt": "2026-09-10T17:26:05+09:00",
+      "checkedAt": "2026-09-10T22:05:23+09:00",
       "error": null,
       "matched": 1
     },
     "khu": {
-      "checkedAt": "2026-09-10T17:26:05+09:00",
+      "checkedAt": "2026-09-10T22:05:23+09:00",
       "error": null,
       "matched": 1
     }
