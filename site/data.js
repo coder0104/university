@@ -1,7 +1,7 @@
 window.ADMISSION_DATA = {
   "schemaVersion": 1,
   "year": 2027,
-  "lastAttemptAt": "2026-09-11T10:25:01+09:00",
+  "lastAttemptAt": "2026-09-11T15:36:06+09:00",
   "programs": [
     {
       "id": "konkuk-statistics",
@@ -674,29 +674,99 @@ window.ADMISSION_DATA = {
       "deadline": "2026-09-11T18:00:00+09:00",
       "sourceHash": "221b10165eb1c4a089118c48f4493b7213b4f69eee1d9e17b71e352c5278b220",
       "collectedAt": "2026-09-11T10:25:01+09:00"
+    },
+    {
+      "programId": "hufs-german-education",
+      "year": 2027,
+      "seats": 7,
+      "applicants": 43,
+      "ratio": 6.14,
+      "publishedAt": "2026-09-11T14:00:00+09:00",
+      "final": false,
+      "sourceUrl": "https://ratio.uwayapply.com/Sl5KJmg6fEpmJSY6Jko3ZlRm",
+      "sourceTrack": "학생부종합전형(면접형)",
+      "deadline": "2026-09-11T17:00:00+09:00",
+      "sourceHash": "2b57515357f203f6d708d7906ea62d16da61f9b768064bc5f26828d170d3ffa6",
+      "collectedAt": "2026-09-11T15:36:06+09:00"
+    },
+    {
+      "programId": "hufs-politics-interview",
+      "year": 2027,
+      "seats": 8,
+      "applicants": 111,
+      "ratio": 13.88,
+      "publishedAt": "2026-09-11T14:00:00+09:00",
+      "final": false,
+      "sourceUrl": "https://ratio.uwayapply.com/Sl5KJmg6fEpmJSY6Jko3ZlRm",
+      "sourceTrack": "학생부종합전형(면접형)",
+      "deadline": "2026-09-11T17:00:00+09:00",
+      "sourceHash": "2b57515357f203f6d708d7906ea62d16da61f9b768064bc5f26828d170d3ffa6",
+      "collectedAt": "2026-09-11T15:36:06+09:00"
+    },
+    {
+      "programId": "hufs-politics-document",
+      "year": 2027,
+      "seats": 7,
+      "applicants": 67,
+      "ratio": 9.57,
+      "publishedAt": "2026-09-11T14:00:00+09:00",
+      "final": false,
+      "sourceUrl": "https://ratio.uwayapply.com/Sl5KJmg6fEpmJSY6Jko3ZlRm",
+      "sourceTrack": "학생부종합전형(서류형)",
+      "deadline": "2026-09-11T17:00:00+09:00",
+      "sourceHash": "2b57515357f203f6d708d7906ea62d16da61f9b768064bc5f26828d170d3ffa6",
+      "collectedAt": "2026-09-11T15:36:06+09:00"
+    },
+    {
+      "programId": "hufs-language-ai",
+      "year": 2027,
+      "seats": 8,
+      "applicants": 109,
+      "ratio": 13.63,
+      "publishedAt": "2026-09-11T14:00:00+09:00",
+      "final": false,
+      "sourceUrl": "https://ratio.uwayapply.com/Sl5KJmg6fEpmJSY6Jko3ZlRm",
+      "sourceTrack": "학생부종합전형(면접형)",
+      "deadline": "2026-09-11T17:00:00+09:00",
+      "sourceHash": "2b57515357f203f6d708d7906ea62d16da61f9b768064bc5f26828d170d3ffa6",
+      "collectedAt": "2026-09-11T15:36:06+09:00"
+    },
+    {
+      "programId": "khu-international",
+      "year": 2027,
+      "seats": 55,
+      "applicants": 547,
+      "ratio": 9.95,
+      "publishedAt": "2026-09-11T14:00:00+09:00",
+      "final": false,
+      "sourceUrl": "https://ratio.uwayapply.com/Sl5KOnw5SmYlJjomSjdmVGY=",
+      "sourceTrack": "국제캠퍼스학생부종합(네오르네상스전형)",
+      "deadline": "2026-09-11T18:00:00+09:00",
+      "sourceHash": "f57b6e852a15ed9ce4f0d1eef84b31817b20f95fd19a0e7feedff23583eb5e1e",
+      "collectedAt": "2026-09-11T15:36:06+09:00"
     }
   ],
   "status": {
     "ewha": {
-      "checkedAt": "2026-09-11T10:25:01+09:00",
+      "checkedAt": "2026-09-11T15:36:06+09:00",
       "error": "HTTPError: HTTP Error 403: Forbidden"
     },
     "konkuk": {
-      "checkedAt": "2026-09-11T10:25:01+09:00",
+      "checkedAt": "2026-09-11T15:36:06+09:00",
       "error": "HTTPError: HTTP Error 403: Forbidden"
     },
     "hufs": {
-      "checkedAt": "2026-09-11T10:25:01+09:00",
+      "checkedAt": "2026-09-11T15:36:06+09:00",
       "error": null,
       "matched": 4
     },
     "uos": {
-      "checkedAt": "2026-09-11T10:25:01+09:00",
+      "checkedAt": "2026-09-11T15:36:06+09:00",
       "error": null,
       "matched": 1
     },
     "khu": {
-      "checkedAt": "2026-09-11T10:25:01+09:00",
+      "checkedAt": "2026-09-11T15:36:06+09:00",
       "error": null,
       "matched": 1
     }
