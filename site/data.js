@@ -1,7 +1,7 @@
 window.ADMISSION_DATA = {
   "schemaVersion": 1,
   "year": 2027,
-  "lastAttemptAt": "2026-09-14T03:49:51+09:00",
+  "lastAttemptAt": "2026-09-14T06:09:39+09:00",
   "programs": [
     {
       "id": "konkuk-statistics",
@@ -818,25 +818,25 @@ window.ADMISSION_DATA = {
   ],
   "status": {
     "ewha": {
-      "checkedAt": "2026-09-14T03:49:51+09:00",
+      "checkedAt": "2026-09-14T06:09:39+09:00",
       "error": "HTTPError: HTTP Error 403: Forbidden"
     },
     "konkuk": {
-      "checkedAt": "2026-09-14T03:49:51+09:00",
+      "checkedAt": "2026-09-14T06:09:39+09:00",
       "error": "HTTPError: HTTP Error 403: Forbidden"
     },
     "hufs": {
-      "checkedAt": "2026-09-14T03:49:51+09:00",
+      "checkedAt": "2026-09-14T06:09:39+09:00",
       "error": null,
       "matched": 4
     },
     "uos": {
-      "checkedAt": "2026-09-14T03:49:51+09:00",
+      "checkedAt": "2026-09-14T06:09:39+09:00",
       "error": null,
       "matched": 1
     },
     "khu": {
-      "checkedAt": "2026-09-14T03:49:51+09:00",
+      "checkedAt": "2026-09-14T06:09:39+09:00",
       "error": null,
       "matched": 1
     }
